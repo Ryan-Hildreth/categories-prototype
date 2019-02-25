@@ -112,7 +112,7 @@ function initItems(){
 		var item = document.createElement('div');
 		item.classList.add('checkbox');
 		item.classList.add('site-type');
-		item.innerHTML = '<input type="checkbox" id="site_cb' + i + '"/> <label for="site_cb' + i + '">' + data.Sites[i] + '</label>';
+		item.innerHTML = '<input type="checkbox" id="site_cb' + i + '"/> <label>' + data.Sites[i] + '</label>';
 		siteArea.appendChild(item);
 	}
 	
